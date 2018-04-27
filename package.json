@@ -1,0 +1,17 @@
+{
+  "name": "salary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --inspect-brk ./node_modules/truffle-core/cli.js test test/TestSalary.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle-core": "^4.1.7"
+  }
+}
